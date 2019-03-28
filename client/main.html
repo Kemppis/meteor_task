@@ -1,0 +1,24 @@
+<head>
+
+  <title>Liana App</title>
+
+</head>
+
+<body>
+
+  <input type="checkbox" id="myCheck" class="loggedin" value="logged-in">Logged in<br>
+
+  <div id="button-area">
+
+    {{> clickButton}}
+
+  </div>
+
+</body>
+
+<template name="clickButton">
+
+    Times you have clicked button: {{ clicks }}
+    <br><button id="button">Nappula</button>
+
+</template>

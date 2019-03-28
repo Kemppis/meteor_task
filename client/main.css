@@ -1,0 +1,25 @@
+#button-area {
+	text-align: center;
+}
+
+#button {
+	color: white;
+	background-color: purple;
+
+	border-color: blue;
+	border-width: 5px;
+	padding: 10px;
+
+	text-align: center;
+	width: 150px;
+	height: 50px;
+	border-radius: 25px;
+}
+
+#clickCounter {
+	text-align: center;
+}
+
+#counter {
+	color: black;
+}
